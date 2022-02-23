@@ -1,0 +1,22 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "Todo example APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
