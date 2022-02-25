@@ -7,7 +7,7 @@ export default function TodoApp() {
   return (
     <div className="todo-app">
       <header className="header">
-        <h1>Todo List</h1>
+        <h1>Edward's Todo List:</h1>
       </header>
       <div className="center">
         <AddTodo />
