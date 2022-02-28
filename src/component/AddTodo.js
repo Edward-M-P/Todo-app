@@ -31,6 +31,7 @@ class AddTodo extends Component {
     const error = this.props.inputError;
     return (
       <div className="card">
+        <p className="center">Add a new to do to the list</p>
         <div className="center">
           <input
             onChange={(e) => this.updateInput(e.target.value)}
@@ -38,7 +39,7 @@ class AddTodo extends Component {
           />
           {!loading && (
             <button className="add-todo btn" onClick={this.handleAdd}>
-              Add todo
+              Add
             </button>
           )}
           {loading && <LoadingSpinner />}
